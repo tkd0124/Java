@@ -1,3 +1,4 @@
+package r3;
 public class r3_8 {
     public static void main(String[] args) {
         for (int i = 1; i < 10; i++) {

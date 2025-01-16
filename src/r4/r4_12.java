@@ -1,3 +1,4 @@
+package r4;
 public class r4_12 {
     public static void main(String[] args) {
         int[] seq = new int[10];

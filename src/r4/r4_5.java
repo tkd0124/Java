@@ -1,3 +1,4 @@
+package r4;
 public class r4_5 {
     public static void main(String[] args) {
         int[] scores = new int[5];

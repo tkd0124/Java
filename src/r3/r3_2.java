@@ -1,3 +1,4 @@
+package r3;
 public class r3_2 {
     public static void main(String[] args) {
         boolean tenki = true;

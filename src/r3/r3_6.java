@@ -1,3 +1,4 @@
+package r3;
 public class r3_6 {
     public static void main(String[] args) {
           System.out.println("あなたの運勢を占います");

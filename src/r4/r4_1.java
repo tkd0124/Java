@@ -1,3 +1,4 @@
+package r4;
 public class r4_1 {
     public static void main(String[] args) {
         int sansu = 20;
