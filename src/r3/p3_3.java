@@ -10,9 +10,12 @@ public class p3_3 {
             System.out.println("お腹いっぱい");
         } else {
             System.out.println("ぺこ");
-            System.out.println(food +"をいただきます");
+            // System.out.println(food +"をいただきます");
             
         }
-        System.out.println("ごちそうさまです");
+        if (isHungry == 1) {
+            System.out.println(food +"をいただきます");
+            //System.out.println("ごちそうさまです");
     }
+        System.out.println("ごちそうさまです");
 }
