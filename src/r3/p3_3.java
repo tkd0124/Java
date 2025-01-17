@@ -16,6 +16,7 @@ public class p3_3 {
         if (isHungry == 1) {
             System.out.println(food +"をいただきます");
             //System.out.println("ごちそうさまです");
-    }
+        }
         System.out.println("ごちそうさまです");
+    }
 }
