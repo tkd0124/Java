@@ -32,9 +32,9 @@ public class k3_1 {
                 ave = sum / scores[i].length;
             }
             System.out.println((i + 1) + "人目の合計点と平均点");
-            System.out.printf("%d¥n", (int)sum);
-            System.out.printf("%.1f¥n", ave);
-            System.out.println( 1);
+            System.out.printf("合計点：" + "%d/300 %n", (int)sum);
+            System.out.printf("平均点：" + "%.1f/100 %n", ave);
+            System.out.println();
 
         }
 
