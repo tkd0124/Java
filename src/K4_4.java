@@ -7,8 +7,8 @@ public class K4_4 {
 
         System.out.println("指定した図形の面積や体積を求めます。");
         System.out.println("1 : 正方形");
-        System.out.println("1 : 長方形");
-        System.out.println("1 : 直方体");
+        System.out.println("2 : 長方形");
+        System.out.println("3 : 直方体");
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("図形を選択してください（1, 2, 3）: ");
