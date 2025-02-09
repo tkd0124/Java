@@ -1,5 +1,6 @@
 package src;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class K4_2 {
@@ -12,6 +13,7 @@ public class K4_2 {
 
         System.out.println("登録されたユーザーは" + userCount +
                 "人です");
+
         System.out.println("ユーザー一覧");
         for (String user : users){
             if (user == null){
@@ -19,6 +21,10 @@ public class K4_2 {
             }
             System.out.println(user);
         }
+//        for (int i = 0; i < userCount; i++){
+//            System.out.println(users[i]);
+//        }
+        System.out.println(Arrays.toString(users));
     }
     public static void entry(String[] array){
         System.out.println("最大５人までのユーザーを登録できます。");
