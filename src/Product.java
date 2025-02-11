@@ -27,4 +27,8 @@ public class Product {
         System.out.println("    在庫：" + this.num + "個");
         System.out.println();
     }
+
+    public void buy(int buyNum){
+        System.out.println("");
+    }
 }

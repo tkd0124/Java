@@ -12,7 +12,7 @@ public class K5_7 {
         for(Product i : products){
             i.productInfo();
         }
-//        products[0].buy(10);
+        products[0].buy(10);
 //        System.out.println();
 //
 //        for (Prodouct i : products){
