@@ -12,9 +12,9 @@ public class Product {
     }
 
     public Product(String name, int price, int num){
-        name = this.name;
-        price = this.price;
-        num = this.num;
+        this.name = name;
+        this.price = price;
+        this.num = num;
     }
 
     public static void countInfo(Product[] products){
