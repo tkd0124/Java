@@ -3,6 +3,8 @@ package src.r11;
 public abstract class Character {
     String name;
     int hp;
-    public abstract void run();
+    public void run() {
+        System.out.println(this.name + "は逃げ出した");
+    }
     public abstract void attack(Matango m);
 }
