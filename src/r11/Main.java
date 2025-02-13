@@ -2,13 +2,18 @@ package src.r11;
 
 public class Main {
     public static void main(String[] args) {
-        Monster[] monsters = new Monster[3];
-        monsters[0] = new Slime();
-        monsters[1] = new Goblin();
-        monsters[2] = new DeathBat();
-        for (Monster m : monsters) {
-            m.run();
-        }
+        Hero hero = new Hero();
+        King king = new King();
+        hero.setName("pok");
+        king.talk(hero);
+
+//        Monster[] monsters = new Monster[3];
+//        monsters[0] = new Slime();
+//        monsters[1] = new Goblin();
+//        monsters[2] = new DeathBat();
+//        for (Monster m : monsters) {
+//            m.run();
+//        }
     }
 //    public static void main(String[] args) {
 //        Character[] c = new Character[5];

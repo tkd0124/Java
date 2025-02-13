@@ -3,21 +3,21 @@ package shape;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Circle {
-    private double area;
+public class Circle extends Shape{
+//    private double area;
     private double radius;
 
-    public double getArea(){
-        return this.area;
-    }
+//    public double getArea(){
+//        return this.area;
+//    }
 
     public double getRadius(){
         return  this.radius;
     }
 
-    public void setArea(double area){
-        this.area = area;
-    }
+//    public void setArea(double area){
+//        this.area = area;
+//    }
 
     public void setRadius(double radius){
         this.radius = radius;
@@ -49,7 +49,7 @@ public class Circle {
     }
 
     public void calcArea(){
-        this.area = this.radius * this.radius * Math.PI;
+        setArea(this.radius * this.radius * Math.PI);
     }
 
 }

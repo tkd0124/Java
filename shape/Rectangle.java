@@ -4,13 +4,13 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Rectangle {
-    private double area;
+//    private double area;
     private double width;
     private double height;
 
-    public double getArea(){
-        return this.area;
-    }
+//    public double getArea(){
+//        return this.area;
+//    }
 
     public double getWidth(){
         return this.width;
@@ -20,9 +20,9 @@ public class Rectangle {
         return this.height;
     }
 
-    public void setArea(double area){
-        this.area = area;
-    }
+//    public void setArea(double area){
+//        this.area = area;
+//    }
 
     public void setWidth(double width) {
         this.width = width;
@@ -64,6 +64,6 @@ public class Rectangle {
     }
 
     public void calcArea(){
-        this.area = this.height * this.width;
+//        this.height * this.width;
     }
 }

@@ -4,13 +4,13 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Triangle {
-    private double area;
+//    private double area;
     private double base;
     private double height;
 
-    public double getArea() {
-        return area;
-    }
+//    public double getArea() {
+//        return area;
+//    }
 
     public double getBase() {
         return base;
@@ -20,9 +20,9 @@ public class Triangle {
         return height;
     }
 
-    public void setArea(double area) {
-        this.area = area;
-    }
+//    public void setArea(double area) {
+//        this.area = area;
+//    }
 
     public void setBase(double base) {
         this.base = base;
@@ -62,6 +62,6 @@ public class Triangle {
     }
 
     public void calcArea(){
-        this.area = this.base * this.height / 2;
+//        this.area = this.base * this.height / 2;
     }
 }
