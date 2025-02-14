@@ -3,14 +3,11 @@ package shape;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Rectangle {
-//    private double area;
+public class Rectangle extends Shape{
+
     private double width;
     private double height;
 
-//    public double getArea(){
-//        return this.area;
-//    }
 
     public double getWidth(){
         return this.width;
@@ -19,10 +16,6 @@ public class Rectangle {
     public double getHeight(){
         return this.height;
     }
-
-//    public void setArea(double area){
-//        this.area = area;
-//    }
 
     public void setWidth(double width) {
         this.width = width;
@@ -64,6 +57,6 @@ public class Rectangle {
     }
 
     public void calcArea(){
-//        this.height * this.width;
+        setArea(this.height * this.width);
     }
 }

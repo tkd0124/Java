@@ -20,12 +20,12 @@ public class Main {
             case 2 :
                 Rectangle rectangle = new Rectangle(scanner);
                 rectangle.calcArea();
-//                System.out.printf("面積:%.2f", rectangle.getArea());
+                System.out.printf("面積:%.2f", rectangle.getArea());
                 break;
             case 3 :
                 Triangle triangle = new Triangle(scanner);
                 triangle.calcArea();
-//                System.out.printf("面積:%.2f", triangle.getArea());
+                System.out.printf("面積:%.2f", triangle.getArea());
                 break;
             default:
                 System.out.println("No number");

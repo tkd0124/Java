@@ -3,27 +3,20 @@ package shape;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Circle extends Shape{
-//    private double area;
-    private double radius;
+public class Circle extends Shape {
 
-//    public double getArea(){
-//        return this.area;
-//    }
+    private double radius;
 
     public double getRadius(){
         return  this.radius;
     }
-
-//    public void setArea(double area){
-//        this.area = area;
-//    }
 
     public void setRadius(double radius){
         this.radius = radius;
     }
 
     public Circle(Scanner scanner){
+        super();
         System.out.println("円の面積を求めます。");
 
         while (true) {

@@ -3,14 +3,9 @@ package shape;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Triangle {
-//    private double area;
+public class Triangle extends Shape{
     private double base;
     private double height;
-
-//    public double getArea() {
-//        return area;
-//    }
 
     public double getBase() {
         return base;
@@ -19,10 +14,6 @@ public class Triangle {
     public double getHeight() {
         return height;
     }
-
-//    public void setArea(double area) {
-//        this.area = area;
-//    }
 
     public void setBase(double base) {
         this.base = base;
@@ -62,6 +53,6 @@ public class Triangle {
     }
 
     public void calcArea(){
-//        this.area = this.base * this.height / 2;
+        setArea(this.base * this.height / 2);
     }
 }
