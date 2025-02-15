@@ -1,4 +1,4 @@
-package ShopList;
+package Payment;
 
 public class Payment {
     private String paymentName;
