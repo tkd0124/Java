@@ -38,4 +38,26 @@ public class Payment {
         System.out.println("支払い処理が完了しました");
         System.out.println("購入ありがとうございました");
     }
+
+    @Override
+    public String toString(){
+        return "支配方法：" + paymentName + "支払い金額" + paymentPrice + "円";
+    }
+
+    @Override
+    public boolean equals(Object obj){
+
+        if (this == obj){
+            return  true;
+        }
+
+        if (obj instanceof Payment){
+            Payment payment = (Payment) obj;
+            if (this.paymentName.equals(payment.paymentName)
+                 && this.paymentPrice == payment.paymentPrice){
+                return true;
+            }
+        }
+        return false;
+    }
 }
