@@ -1,9 +1,9 @@
-package shape;
+package k9.shape;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
 
     private double width;
     private double height;
@@ -58,5 +58,9 @@ public class Rectangle extends Shape{
 
     public void calcArea(){
         setArea(this.height * this.width);
+    }
+    @Override
+    public void calcPerimeter(){
+        setPerimeter(2 * this.height + 2 * this.width);
     }
 }

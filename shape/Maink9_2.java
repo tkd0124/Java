@@ -2,7 +2,7 @@ package k9.shape;
 
 import java.util.Scanner;
 
-public class Main8_5 {
+public class Maink9_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -24,8 +24,9 @@ public class Main8_5 {
         if (shape != null) {
             shape.calcArea();
             System.out.println(shape.getArea());
+            shape.calcPerimeter();
+            System.out.println(shape.getPerimeter());
         }
 
     }
-
 }

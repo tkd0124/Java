@@ -1,4 +1,4 @@
-package shape;
+package k9.shape;
 
 import java.util.Scanner;
 

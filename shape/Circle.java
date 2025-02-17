@@ -1,4 +1,4 @@
-package shape;
+package k9.shape;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -41,8 +41,13 @@ public class Circle extends Shape {
         }
     }
 
+
     public void calcArea(){
         setArea(this.radius * this.radius * Math.PI);
     }
 
+    @Override
+    public void calcPerimeter(){
+        setPerimeter(2 * this.radius * Math.PI);
+    }
 }

@@ -1,4 +1,4 @@
-package shape;
+package k9.shape;
 
 public class Main8_6 {
     public static void main(String[] args) {

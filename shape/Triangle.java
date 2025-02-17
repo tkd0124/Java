@@ -1,9 +1,9 @@
-package shape;
+package k9.shape;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Triangle extends Shape{
+public class Triangle extends Shape {
     private double base;
     private double height;
 
@@ -54,5 +54,9 @@ public class Triangle extends Shape{
 
     public void calcArea(){
         setArea(this.base * this.height / 2);
+    }
+    @Override
+    public void calcPerimeter(){
+        setPerimeter(this.base + this.height + Math.sqrt(this.base * this.base + this.height * this.height));
     }
 }

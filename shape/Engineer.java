@@ -1,6 +1,6 @@
-package shape;
+package k9.shape;
 
-public class Engineer extends Employee{
+public class Engineer extends Employee {
     private String language;
 
     public Engineer(String name, int salary, String language) {
